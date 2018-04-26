@@ -1,0 +1,66 @@
+.validate-field-container {
+    font-size: 14px;
+    width: 100%;
+    .add-new-content {
+        text-align: center;
+        .add-new-button {
+            margin: 0 auto 10px;
+            font-size: 12px;
+            background-color: $appBlue;
+            width: calc(100% - 20px);
+            line-height: 26px;
+            height: 30px;
+        }
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .select-checkbox {
+        margin-left: 15px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .select-content {
+        padding: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+        overflow-wrap: break-word;
+        width: calc(100% - 50px);
+    }
+    .label {
+        color: #2a2a2a;
+        margin-bottom: 5px;
+        &.flat-text {
+            color: #9b9b9b;
+        }
+    }
+    .error-message {
+        margin-top: 5px;
+        color: $appRed;
+    }
+    .flat-content {
+        font-size: 14px;
+        line-height: 30px;
+        word-wrap: break-word;
+        width: 100%;
+        display: block;
+    }
+    .select-option {
+        line-height: 36px;
+        cursor: pointer;
+        &.is-focused {
+            background-color: #fafafa;
+        }
+    }
+    .Select-value {
+        padding-right: 20px !important;
+    }
+    .empty-result {
+        font-style: italic;
+        color: #a5a5a5;
+        font-size: 12px;
+        text-align: center;
+        line-height: 28px;
+        padding: 0 10px;
+    }
+}

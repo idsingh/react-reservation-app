@@ -1,0 +1,33 @@
+.create-reservation {
+    padding: 0 20px;
+    height: 100%;
+    .module-heading {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 50px;
+        float: left;
+        width: 50%;
+    }
+    .fk-button {
+        vertical-align: middle;
+        margin-left: 10px;
+        width: 100px;
+        text-align: center;
+    }
+    .field-rows {
+        display: flex;
+        .input-field {
+            min-width: 200px;
+            margin-bottom: 20px;
+            margin-right: 30px;
+            display: inline-flex;
+            flex: 1;
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+    .form-actions {
+        text-align: right;
+    }
+}

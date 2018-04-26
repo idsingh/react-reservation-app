@@ -1,0 +1,73 @@
+.header-container {
+    background-color: $appBlue;
+    color: $white;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+    .app-logo {
+        float: left;
+        text-align: center;
+        position: relative;
+        top: 10px;
+        margin-right: 10px;
+        .logo-image {
+            width: 40px;
+        }
+    }
+    .app-title {
+        font-size: 18px;
+        float: left;
+        line-height: 50px;
+    }
+    .zone-dropdown {
+        float: right;
+        margin-right: 15px;
+        transform: translateY(50%);
+        font-size: 14px;
+        .Select {
+            height: 30px;
+            width: 200px;
+            .Select-control {
+                height: 30px;
+                line-height: 30px;
+            }
+        }
+    }
+    .user-info {
+        float: right;
+        .gitkit-account-chip {
+            height: 50px;
+            background-color: transparent;
+            border: none;
+            width: calc(100% - 14px);
+            vertical-align: middle;
+        }
+        .gitkit-user-card {
+            width: auto;
+        }
+        .gitkit-account-chip-email-only {
+            color: $white;
+            font-weight: normal;
+        }
+        .gitkit-user-card-menu {
+            width: 100%;
+        }
+        .gitkit-user-card-chip {
+            padding-right: 15px;
+        }
+        .gitkit-user-card-arrow {
+            position: relative;
+            top: auto;
+            text-align: center;
+            width: 14px;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 10px;
+            height: 11px;
+            &:before {
+                background: url('../../assets/images/custom-icons/down-arrow.svg');
+            }
+        }
+    }
+}

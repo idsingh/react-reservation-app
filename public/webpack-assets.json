@@ -1,0 +1,9 @@
+{
+  "app": {
+    "js": "/app.bundle.js",
+    "css": "/app.css"
+  },
+  "fonts": {
+    "js": "/fonts.bundle.js"
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../assets/styles/_variables.scss';
+
+.info-container {
+    padding: 0 20px;
+    height: 100%;
+    .module-heading {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 50px;
+        float: left;
+        width: 50%;
+    }
+    .reservation-details {
+        .row {
+            display: flex;
+            width: 500px;
+            line-height: 36px;
+            .label {
+                display: flex;
+                flex: 0.5;
+                border: 1px solid #eeeeee;
+                padding: 0 10px;
+            }
+            .value {
+                padding: 0 10px;
+                display: flex;
+                flex: 0.5;
+                border: 1px solid #eeeeee;
+                border-left: 0;
+                color: $appBlue;
+                font-weight: bold;
+            }
+        }
+    }
+    .back-icon {
+        margin-right: 10px;
+        line-height: 50px;
+        font-weight: 800;
+        font-size: 18px;
+        padding: 5px;
+        background-color: $appBlue;
+        color: $white;
+        width: 200px;
+        height: 100px;
+    }
+}
